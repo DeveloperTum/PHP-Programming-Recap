@@ -1,3 +1,10 @@
+
+
+<?php
+//execute a code in another file ---include file
+include 'include.php';
+?>
+
 <!Doctype html>
 <html lang="en">
 <head>
@@ -9,7 +16,7 @@
 <?php
 // simple code to print something
 echo"Exprience a quick dive into Php Programming";
-
+$name= "Wendot Programmer";
 
 //code to print a random number btwn 1 and 6
 $space="<br></br>";
